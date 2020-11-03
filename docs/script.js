@@ -15,7 +15,7 @@ let registerUser = async () => {
 
   try {
     let response = await fetch(
-      "https://resetpassworddbase.herokuapp.com/user/signup",
+      "https://shrouded-chamber-66768.herokuapp.com/user/signup",
       {
         method: "POST",
         body: JSON.stringify(user),
@@ -38,7 +38,7 @@ let loginUser = async () => {
 
   try {
     let response = await fetch(
-      "https://resetpassworddbase.herokuapp.com/user/login",
+      "https://shrouded-chamber-66768.herokuapp.com/user/login",
       {
         method: "POST",
         body: JSON.stringify({
@@ -62,7 +62,7 @@ let changePassword = async () => {
   let email = document.querySelector("#change").value;
   try {
     let response = await fetch(
-      "https://resetpassworddbase.herokuapp.com/user/change",
+      "https://shrouded-chamber-66768.herokuapp.com/user/change",
       {
         method: "POST",
         body: JSON.stringify({
