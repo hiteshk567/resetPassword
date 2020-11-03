@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>REGISTER FORM</h1>
+          <form action="" onsubmit="registerUser(); return false;">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name=""
+                id="email"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name=""
+                id="password"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="retype">Retype Password</label>
+              <input
+                type="text"
+                name=""
+                id="retype"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary form-control" type="submit">
+                Regiser
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-6">
+          <h1>LOGIN FORM</h1>
+          <form action="" onsubmit="loginUser(); return false;">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name=""
+                id="loginEmail"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name=""
+                id="loginPassword"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary form-control" type="submit">
+                Login
+              </button>
+            </div>
+          </form>
+
+          <h3>FORGOT PASSWORD?</h3>
+          <form action="" onsubmit="changePassword(); return false;">
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="email"
+                name=""
+                id="change"
+                value=""
+                placeholder="Enter your email"
+              />
+            </div>
+            <button class="btn btn-primary form-control" type="submit">
+              CHANGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
